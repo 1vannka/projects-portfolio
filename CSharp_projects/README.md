@@ -1,7 +1,7 @@
 This README is available in other languages:
 [🇷🇺 version](README.ru.md)
 
-[Back to project list](../README.md)
+[Back to language list](../README.md)
 
 
 # C# Projects
