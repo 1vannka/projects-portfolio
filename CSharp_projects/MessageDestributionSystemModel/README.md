@@ -56,7 +56,7 @@ Supports priority-based filtering and delivery logging. Message read status is s
 ---
 
 ## Technologies
-- **C# (.NET 6/7+)**
+- **C# (.NET 8)**
 - **NUnit / xUnit** — unit tests  
 - **Moq / equivalent** — dependency mocking  
 - Patterns: **Composite**, **Adapter/Facade**, **Decorator**, **Repository**
