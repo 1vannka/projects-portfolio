@@ -1,3 +1,6 @@
+This README is available in other languages:
+[🇷🇺 version](README.ru.md)
+
 # projects-portfolio
 
 ## C#
