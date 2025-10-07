@@ -52,7 +52,7 @@
 ---
 
 ## Технологии
-- **C# (.NET 6/7+)**
+- **C# (.NET 8)**
 - **NUnit / xUnit** — автотесты  
 - **Moq / аналог** — мокирование зависимостей  
 - Паттерны: **Composite**, **Adapter/Facade**, **Decorator**, **Repository**
