@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>CSharp_projects.TrainSim.src.project1</RootNamespace>
+    </PropertyGroup>
+
+</Project>

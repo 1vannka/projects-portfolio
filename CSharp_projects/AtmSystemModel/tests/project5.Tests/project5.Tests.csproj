@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+        <PackageReference Include="Moq" />
+        <PackageReference Include="xunit"/>
+        <PackageReference Include="xunit.runner.visualstudio"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\project5\Application\project5.Application.Abstractions\project5.Application.Abstractions.csproj" />
+      <ProjectReference Include="..\..\src\project5\Application\project5.Application.Models\project5.Application.Models.csproj" />
+      <ProjectReference Include="..\..\src\project5\Application\project5.Application\project5.Application.csproj" />
+      <ProjectReference Include="..\..\src\project5\Infrastructure\project5.Infrastructure.DataAccess\project5.Infrastructure.DataAccess.csproj" />
+    </ItemGroup>
+
+</Project>
