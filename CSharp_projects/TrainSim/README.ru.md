@@ -1,7 +1,7 @@
 Этот README доступен на другом языке:
 [en version](README.md)
 
-[Вернуться к списку проектов](projects-portfolio/CSharp_projects/README.ru.md)
+[Вернуться к списку проектов](../README.ru.md)
 
 
 # Симулятор маршрута поездов 
