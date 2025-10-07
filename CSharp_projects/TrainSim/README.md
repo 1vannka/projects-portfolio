@@ -1,3 +1,6 @@
+This README is available in other languages:
+[🇷🇺 version](README.ru.md)
+
 # Train Route Simulator
 
 ## Objective
