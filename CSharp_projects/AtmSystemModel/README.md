@@ -5,7 +5,7 @@ This README is available in other languages:
 
 ## Purpose
 To demonstrate understanding of **multilayered architectures** and **design patterns** by implementing an ATM system.  
-The system separates business logic from persistence and presentation layers, following a hexagonal (optionally layered) architecture.
+The system separates business logic from persistence and presentation layers, following a onion-layered architecture.
 
 ---
 
@@ -26,7 +26,7 @@ Data is persistently stored in **PostgreSQL**, without using any ORM libraries.
   - **Administrator mode** — requires system password (configurable).  
 - **Error Handling**: invalid operations or credentials produce informative messages.  
 - **Persistence**: account and transaction data stored in PostgreSQL.  
-- **Architecture**: hexagonal (optionally onion-layered domain model).
+- **Architecture**:  onion-layered domain model.
 
 ---
 
