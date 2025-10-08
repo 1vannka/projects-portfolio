@@ -28,7 +28,7 @@
 
 ---
 
-### 3. [Веб-приложение для работы с котиками и их владельцами (Spring Boot + REST API)](./project3/README.ru.md)
+### 3. [Веб-приложение для работы с котами и их владельцами (Spring Boot + REST API)](./project3/README.ru.md)
 - **Добавлено:**  
   - Веб-слой на Spring Boot и Spring MVC.
   - REST API, пагинация, фильтрация, DTO-слой.
