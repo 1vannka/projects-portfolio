@@ -14,7 +14,7 @@ Each project illustrates the evolution of architecture: from a console applicati
 ## Projects
 
 ### 1. [ATM System](./project1/README.md)
-- **Purpose:** Practice with Java, Maven/Gradle, JavaDoc, and JUnit.
+- **Purpose:** Practice with Java, Maven, JavaDoc, and JUnit.
 - **Description:** Simulates ATM operations with account creation, transactions, history, and error handling via checked exceptions.  
 - **Architecture:** Layered structure (domain, service, repository, main).
 
@@ -23,7 +23,6 @@ Each project illustrates the evolution of architecture: from a console applicati
 ### 2. [Database Application (JPA / Hibernate)](./project2/README.md)
 - **Added:**  
   - DAO layer and ORM integration (JPA/Hibernate).
-  - Database migrations.
   - Bidirectional entity relationships and business logic in services.
 - **Description:** Models a system for tracking pets and owners with CRUD operations, relationships, and tests.
 
