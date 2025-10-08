@@ -1,0 +1,49 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/project5_java_gateway
+    username: postgres
+    password: 1029384756
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+
+jwt:
+  secret: n1u3L2k7P0q9R8m6J5h4G3f2E1d0C9b8A7s6D5f4G3h2J1k0L9m8N7b6V5c4X3z2W1v0U9t8S7r6Q5p4O3n2
+  expiration: 3600000
+
+owner:
+  queue:
+    all: owner_get_all_queue
+    byId: owner_get_by_id_queue
+    create: owner_create_queue
+    update: owner_update_queue
+    delete: owner_delete_queue
+    validate: owner_validate_queue
+cat:
+  queue:
+    all: cat_get_all_queue
+    byId: cat_get_by_id_queue
+    create: cat_create_queue
+    update: cat_update_queue
+    delete: cat_delete_queue
+    addFriend: cat_add_friend_queue
+    removeFriend: cat_remove_friend_queue
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.web.filter.OncePerRequestFilter : DEBUG
+    com.project5: DEBUG

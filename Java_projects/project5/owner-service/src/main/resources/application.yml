@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/project5_java_Owners
+    username: postgres
+    password: 1029384756
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8081
+
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+
+owner:
+  queue:
+    all: owner_get_all_queue
+    byId: owner_get_by_id_queue
+    create: owner_create_queue
+    update: owner_update_queue
+    delete: owner_delete_queue
+    validate: owner_validate_queue
+cat:
+  queue:
+    all: cat_get_all_queue
+    byId: cat_get_by_id_queue
+    create: cat_create_queue
+    update: cat_update_queue
+    delete: cat_delete_queue
+    addFriend: cat_add_friend_queue
+    removeFriend: cat_remove_friend_queue
