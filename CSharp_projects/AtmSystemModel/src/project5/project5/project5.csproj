@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab5.Lab5</RootNamespace>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Infrastructure\project5.Infrastructure.DataAccess\project5.Infrastructure.DataAccess.csproj" />
+      <ProjectReference Include="..\Presentation\project5.Presentation.Console\project5.Presentation.Console.csproj" />
+    </ItemGroup>
+
+</Project>
